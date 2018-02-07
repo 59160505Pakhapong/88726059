@@ -1,76 +1,205 @@
 <html>
+
 <head>
+    <meta charset="UTF-8">
    <title>time table</title>
+<style>
+       #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+} 
+</style>
 </head>
-<body bgcolor="skyblue">
-<H1><FONT COLOR="DARKCYAN"><CENTER>COLLEGE TIME TABLE</FONT></H1>
+
+<body>
+
+<H1><FONT COLOR="DARKCYAN"><CENTER>My time table </FONT></H1>
+
 <table border="2" cellspacing="3" align="center">
-<tr>
- <td align="center">
- <td>8:30-9:30
- <td>9:30-10:30
- <td>10:3-11:30
- <td>11:30-12:30
- <td>12:30-2:00
- <td>2:00-3:00
- <td>3:00-4:00
- <td>4:00-5:00
+
+<tr id="customers">
+
+ <td align="center" > Day/Time
+
+ <td>8:00-9:00
+
+ <td>9:00-10:00
+
+ <td>10:00-11:00
+
+ <td>11:00-12:00
+
+ <td>12:00-13:00
+
+ <td>13:00-14:00
+
+ <td>14:00-15:00
+
+ <td>15:00-16:00
+
+ <td>16:00-17:00
+
+ <td>17:00-18:00
+
+ <td>18:00-19:00
+
+ <td>19:00-20:00
+
+ <td>20:00-21:00
+
 </tr>
-<tr>
+
+<tr id="customers">
+
  <td align="center">MONDAY
- <td align="center">---<td align="center"><font color="blue">SUB1<br>
- <td align="center"><font color="pink">SUB2<br>
- <td align="center"><font color="red">SUB3<br>
- <td rowspan="6"align="center">L<br>U<br>N<br>C<br>H
- <td align="center"><font color="maroon">SUB4<br>
- <td align="center"><font color="brown">SUB5<br>
- <td align="center">counselling class
+
+ <td align="center">---
+
+ <td align="center">---
+     
+ <td align="center" colspan="2" ><font color="blue"> 88727359-59<br/>(3) 1, IF-6T01<br/>IF
+
+ <td align="center">---
+
+ <td align="center">---
+
+ <td align="center">---
+
+ <td align="center">---
+
+ <td align="center">---
+
+ <td align="center" colspan="3" ><font color="blue">  88727359-59<br/>(3) 1, IF-3C01 <br/>IF
+
+ <td align="center">---
+
 </tr>
-<tr>
+
+<tr id="customers">
+
  <td align="center">TUESDAY
- <td align="center"><font color="blue">SUB1<br>
- <td align="center"><font color="red">SUB2<br>
- <td align="center"><font color="pink">SUB3<br>
+
  <td align="center">---
- <td align="center"><font color="orange">SUB4<BR>
- <td align="center"><font color="maroon">SUB5<br>
- <td align="center">library
+
+ <td align="center" colspan="2" ><font color="blue">   88721159-59<br/>
+        (3) 1, IF-5T03<br/>
+        IF
+
+ <td align="center">---
+
+ <td align="center" colspan="3" ><font color="blue"> 88721159-59<br/>
+        (3) 1, IF-3C03<br>
+        IF
+
+ <td align="center">---
+
+ <td align="center">---
+
+ <td align="center">---
+ 
+ <td align="center">---
+ 
+    <td align="center" colspan="2" ><font color="blue">
+        88726059-59<br/>
+        (3) 1, M-IT ทางไกลชั้น5<br>
+        M
+
 </tr>
-<tr>
+
+<tr id="customers">
+
  <td align="center">WEDNESDAY
- <td align="center"><font color="pink">SUB1<br>
- <td align="center"><font color="orange">SUB2<BR>
- <td align="center"><font color="brown">SWA<br>
+
  <td align="center">---
- <td colspan="3" align="center"><font color="green"> lab
+
+ <td align="center">---
+
+        <td align="center" colspan="2" ><font color="blue"> 88720159-59<br/>
+                (3) 1, IF-6T05<br/>
+                IF
+
+ <td align="center">---
+
+ <td align="center" colspan="2" ><font color="blue"> 88723159-59<br/>
+                (3) 1, IF-6T01<br/>
+                IF
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center" colspan="2" ><font color="blue">  88726059-59<br/>
+        (3) 1, IF-3C01<br/>
+        IF
 </tr>
-<tr>
+
+<tr id="customers">
+
  <td align="center">THURSDAY
- <td align="center">SUB1<br>
- <td align="center"><font color="brown">SUB2<br>
- <td align="center"><font color="orange">SUB3<BR>
+
+ <td align="center" colspan="2" ><font color="blue"> 88723159-59<br/>
+        (3) 1, IF-3C03<br/>
+        IF
+
+ <td align="center" colspan="2" ><font color="blue">  88727159-59<br/>
+        (3) 1, IF-5T05<br/>
+        IF
+
  <td align="center">---
- <td align="center"><font color="blue">SUB4<br>
- <td align="center"><font color="red">SUB5<br>
- <td align="center">library
+
+ <td align="center" colspan="3" ><font color="blue">  88720159-59<br/>
+        (3) 1, IF-3C01<br/>
+        IF<br/>
+        88720159-59<br/>
+        (3) 1, IF-4C01<br/>
+        IF
+
+ <td align="center">---
+
+ <td align="center" colspan="3" ><font color="blue">  88727159-59<br/>
+        (3) 1, IF-3C01<br>
+        IF
+
+ <td align="center">---
+
 </tr>
-<tr>
+
+<tr id="customers">
+
  <td align="center">FRIDAY
- <td align="center"><font color="orange">SUB1<BR>
- <td align="center"><font color="maroon">SUB2<br>
- <td align="center"><font color="blue">SUB3<br>
+
  <td align="center">---
- <td align="center"><font color="pink">SUB4<br>
- <td align="center"><font color="brown">SUB5<br>
- <td align="center">library
-</tr>
-<tr>
- <td align="center">SATURDAY
- <td align="center"><font color="red">SUB1<br>
- <td colspan="3" align="center">seminar
- <td align="center"><font color="pink">SUB4<br>
- <td align="center"><font color="brown">SUB5<br>
- <td align="center">library
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+ <td align="center">---
+
 </tr>
 </body>
+
 </html>
